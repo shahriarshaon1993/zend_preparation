@@ -10,7 +10,7 @@
 > ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/images/001.png)
 
 > JavaScript, PHP are scripting language.
-> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/images/002.jpg)
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/images/002.png)
 
 > Javascript - which runs on the client within the browser
 > PHP - required server to run.
