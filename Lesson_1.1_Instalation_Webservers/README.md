@@ -6,13 +6,13 @@
 
 > Here is a simple diagram:-
 
-![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/images/003.png)
+![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.1_Instalation_Webservers/images/003.png)
 
-![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/images/004.png)
+![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.1_Instalation_Webservers/images/004.png)
 
-![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/images/005.png)
+![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.1_Instalation_Webservers/images/005.png)
 
-![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/images/006.png)
+![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.1_Instalation_Webservers/images/006.png)
 
 ## What is Apache?
 
