@@ -90,7 +90,7 @@ Status Paid, Status Void, Status Pending
 ```
 
 ## Predefined Constants: 
-[Predefined Constants PHP Documentation]([https://www.php.net/manual/en/com.constants.php](https://www.php.net/manual/en/reserved.constants.php))
+[Predefined Constants PHP Documentation](https://www.php.net/manual/en/reserved.constants.php)
 
 ## Magic constants
 [Magic constants PHP Documentation](https://www.php.net/manual/en/language.constants.magic.php)
