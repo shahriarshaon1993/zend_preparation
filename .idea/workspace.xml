@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_1.4_Data_Types_Casting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.4_Data_Types_Casting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,8 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,36 +37,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="914" />
-          <entry key="php" value="42" />
+          <entry key="php" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="914" />
-          <entry key="PHP" value="42" />
+          <entry key="PHP" value="151" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="698">
-                <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
-              </first_editor>
-              <second_editor />
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -82,8 +69,8 @@
       <list>
         <option value="$PROJECT_DIR$/Lesson_1.3_Constants_Variable_Variables/index.php" />
         <option value="$PROJECT_DIR$/Lesson_1.3_Constants_Variable_Variables/README.md" />
-        <option value="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" />
         <option value="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/README.md" />
+        <option value="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" />
       </list>
     </option>
   </component>
@@ -93,18 +80,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="width" value="1426" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,15 +97,11 @@
               <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
               <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson_1.5_Boolean_Data_Type" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,18 +135,19 @@
       <workItem from="1693841710503" duration="4112000" />
       <workItem from="1693996600482" duration="104000" />
       <workItem from="1694449178744" duration="2000" />
-      <workItem from="1694532924737" duration="764000" />
+      <workItem from="1694532924737" duration="1102000" />
+      <workItem from="1694535491422" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4982000" />
+    <option name="totallyTimeSpent" value="5553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-11" y="0" width="1426" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21742313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,7 +160,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.543264" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -210,20 +192,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="698">
-            <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
+          <first_editor relative-caret-position="760">
+            <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
