@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,37 +24,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="2" />
-          <entry key="php" value="2" />
+          <entry key="md" value="3" />
+          <entry key="php" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="2" />
-          <entry key="PHP" value="2" />
+          <entry key="Markdown" value="3" />
+          <entry key="PHP" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="914" />
-          <entry key="php" value="151" />
+          <entry key="md" value="1296" />
+          <entry key="php" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="914" />
-          <entry key="PHP" value="151" />
+          <entry key="Markdown" value="1296" />
+          <entry key="PHP" value="200" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="689">
+                <caret line="79" column="105" selection-start-line="79" selection-start-column="105" selection-end-line="79" selection-end-column="105" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -71,6 +83,8 @@
         <option value="$PROJECT_DIR$/Lesson_1.3_Constants_Variable_Variables/README.md" />
         <option value="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/README.md" />
         <option value="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" />
+        <option value="$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php" />
+        <option value="$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/README.md" />
       </list>
     </option>
   </component>
@@ -96,6 +110,11 @@
             <path>
               <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
               <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson_1.6_Integer_Data_Type" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,12 +155,12 @@
       <workItem from="1693996600482" duration="104000" />
       <workItem from="1694449178744" duration="2000" />
       <workItem from="1694532924737" duration="1102000" />
-      <workItem from="1694535491422" duration="233000" />
+      <workItem from="1694535491422" duration="2102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5553000" />
+    <option name="totallyTimeSpent" value="7422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="1426" height="1047" extended-state="0" />
@@ -150,6 +169,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21742313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -204,8 +224,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="689">
+            <caret line="79" column="105" selection-start-line="79" selection-start-column="105" selection-end-line="79" selection-end-column="105" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
