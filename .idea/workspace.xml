@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.7 _Float_Data_Type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.7 _Float_Data_Type/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,25 +25,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="3" />
-          <entry key="php" value="3" />
+          <entry key="md" value="4" />
+          <entry key="php" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="3" />
-          <entry key="PHP" value="3" />
+          <entry key="Markdown" value="4" />
+          <entry key="PHP" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1296" />
+          <entry key="md" value="1789" />
           <entry key="php" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1296" />
+          <entry key="Markdown" value="1789" />
           <entry key="PHP" value="200" />
         </counts>
       </usages-collector>
@@ -54,17 +55,26 @@
         <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="14" />
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson_1.7 _Float_Data_Type/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/README.md">
+        <entry file="file://$PROJECT_DIR$/Lesson_1.7 _Float_Data_Type/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="689">
-                <caret line="79" column="105" selection-start-line="79" selection-start-column="105" selection-end-line="79" selection-end-column="105" />
+              <first_editor relative-caret-position="743">
+                <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -85,6 +95,8 @@
         <option value="$PROJECT_DIR$/Lesson_1.5_Boolean_Data_Type/index.php" />
         <option value="$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php" />
         <option value="$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/README.md" />
+        <option value="$PROJECT_DIR$/Lesson_1.7 _Float_Data_Type/index.php" />
+        <option value="$PROJECT_DIR$/Lesson_1.7 _Float_Data_Type/README.md" />
       </list>
     </option>
   </component>
@@ -114,7 +126,7 @@
             <path>
               <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
               <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson_1.6_Integer_Data_Type" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson_1.7 _Float_Data_Type" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,18 +167,18 @@
       <workItem from="1693996600482" duration="104000" />
       <workItem from="1694449178744" duration="2000" />
       <workItem from="1694532924737" duration="1102000" />
-      <workItem from="1694535491422" duration="2102000" />
+      <workItem from="1694535491422" duration="4303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7422000" />
+    <option name="totallyTimeSpent" value="9623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="1426" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21742313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21742313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
@@ -229,18 +241,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="689">
-            <caret line="79" column="105" selection-start-line="79" selection-start-column="105" selection-end-line="79" selection-end-column="105" />
+          <first_editor relative-caret-position="360">
+            <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_1.6_Integer_Data_Type/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_1.7 _Float_Data_Type/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_1.7 _Float_Data_Type/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="743">
+            <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
