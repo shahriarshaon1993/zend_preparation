@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,65 +16,76 @@
     <session id="-1210006902">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="7" />
-          <entry key="php" value="5" />
+          <entry key="md" value="8" />
+          <entry key="php" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="7" />
-          <entry key="PHP" value="5" />
+          <entry key="Markdown" value="8" />
+          <entry key="PHP" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1952" />
-          <entry key="php" value="1139" />
+          <entry key="md" value="2140" />
+          <entry key="php" value="1946" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1952" />
-          <entry key="PHP" value="1139" />
+          <entry key="Markdown" value="2140" />
+          <entry key="PHP" value="1946" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/README.md">
+        <entry file="file://$PROJECT_DIR$/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="249">
-                <caret line="74" column="54" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
+              <first_editor relative-caret-position="792">
+                <caret line="161" column="1" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$number3</find>
+      <find>$length</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$c</replace>
+      <replace>$number</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,6 +104,8 @@
         <option value="$PROJECT_DIR$/0.0_Simple_Problems/README.md" />
         <option value="$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/index.php" />
         <option value="$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/README.md" />
+        <option value="$PROJECT_DIR$/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/index.php" />
+        <option value="$PROJECT_DIR$/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/README.md" />
       </list>
     </option>
   </component>
@@ -102,7 +115,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1432" />
     <option name="height" value="1047" />
@@ -119,6 +132,24 @@
             <path>
               <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
               <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="0.0_Simple_Problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="0.0_Simple_Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure_Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zend_preparation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zend_preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="0.0_Simple_Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure_Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="DSA_Introduction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,18 +191,19 @@
       <workItem from="1694532924737" duration="1102000" />
       <workItem from="1694535491422" duration="4359000" />
       <workItem from="1694885997032" duration="5240000" />
-      <workItem from="1694960116495" duration="8096000" />
+      <workItem from="1694960116495" duration="8739000" />
+      <workItem from="1695135325281" duration="6362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23015000" />
+    <option name="totallyTimeSpent" value="30020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1432" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16034986" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -278,6 +310,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="258">
+            <caret line="74" column="54" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -285,11 +327,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson_1.8_String_Data_Type_Heredoc_Nowdoc_Syntax/README.md">
+    <entry file="file://$PROJECT_DIR$/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="249">
-            <caret line="74" column="54" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
+          <first_editor relative-caret-position="792">
+            <caret line="161" column="1" selection-start-line="161" selection-start-column="1" selection-end-line="161" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
