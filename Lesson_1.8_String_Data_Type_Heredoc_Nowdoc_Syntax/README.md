@@ -82,3 +82,55 @@ $a .= "World!";     // now $a contains "Hello World!"
 ```
  
 ## <a href="https://www.php.net/manual/en/ref.strings.php" target="_blank">Useful functions</a>
+
+### <a href="https://www.php.net/manual/en/function.substr.php" target="_blank">1. substr()</a>
+
+```
+substr(string $string, int $offset, ?int $length = null): string
+```
+
+### <a href="https://www.php.net/manual/en/function.strstr.php" target="_blank">2. str_replace()</a>
+
+```
+str_replace(
+    array|string $search,
+    array|string $replace,
+    string|array $subject,
+    string|array $subject,
+    int &$count = null
+): string|array
+```
+
+### <a href="https://www.php.net/manual/en/function.str-replace.php" target="_blank">3. strstr()</a>
+
+```
+strstr(string $haystack, string $needle, bool $before_needle = false): string|false
+```
+
+### <a href="https://www.php.net/manual/en/function.strlen.php" target="_blank">4. strlen()</a>
+
+```
+strlen(string $string): int
+```
+
+### <a href="https://www.php.net/manual/en/function.strtolower.php" target="_blank">5. strtolower()</a>
+
+```
+strtolower(string $string): string
+
+Returns string with all ASCII alphabetic characters converted to lowercase.
+```
+
+### <a href="https://www.php.net/manual/en/function.strtoupper.php" target="_blank">6. strtoupper()</a>
+
+```
+strtoupper(string $string): string
+
+Returns string with all ASCII alphabetic characters converted to uppercase.
+```
+
+### <a href="https://www.php.net/manual/en/function.str-word-count.php" target="_blank">7. str_word_count()</a>
+
+```
+str_word_count(string $string, int $format = 0, ?string $characters = null): array|int
+```
