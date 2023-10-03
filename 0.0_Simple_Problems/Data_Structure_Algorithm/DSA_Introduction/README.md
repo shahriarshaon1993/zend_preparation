@@ -212,3 +212,21 @@ fibonacciSeries(1000);
 ## <a href="https://www.programiz.com/dsa/data-structure-types" target="_blank">Data Structure Types</a>
 
 ## <a href="https://www.programiz.com/dsa/why-algorithms" target="_blank">Why Learn Data Structures and</a>
+
+# <a href="https://www.programiz.com/dsa/asymptotic-notations" target="_blank">Asymptotic Analysis: Big-O Notation and More</a>
+
+## <a href="https://shahinur.com/bn/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%AE%E0%A6%9F%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%95-%E0%A6%A8%E0%A7%8B%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8-asymptotic-notation/" target="_blank">Asymptotic Analysis: Big-O Notation and More Bangla</a>
+
+### Big O(1):
+
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/img/bigO1.png)
+
+### Big O(n):
+
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/img/bigOn.png)
+
+### Big O(n^2):
+
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/img/bigOn-2.png)
+
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/img/bigOn-2-2.png)

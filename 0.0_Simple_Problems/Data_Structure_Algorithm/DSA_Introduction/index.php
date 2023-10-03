@@ -1,8 +1,16 @@
 <?php
 
-function findSum(int $num): float
+function test(int $n)
 {
-    return $num * ($num + 1) / 2;
+    $count = 0;
+
+    for ($i = 0; $i < $n; $i++) {
+        for ($j = 0; $j < $n; $j++) {
+            $count += 1;
+        }
+    }
+
+    return $count;
 }
 
-echo findSum(9999999);
+echo test(5);
