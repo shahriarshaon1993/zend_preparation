@@ -1,8 +1,9 @@
 # What is an Algorithm?
 
->> In computer programming terms, an algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input(s) and produces the desired output.
+> > In computer programming terms, an algorithm is a set of well-defined instructions to solve a particular problem. It takes a set of input(s) and produces the desired output.
 
->> An algorithm to add two numbers:
+> > An algorithm to add two numbers:
+
 ```
 1. Take two number inputs
 2. Add numbers using the + operator
@@ -22,13 +23,13 @@
 
 ```
 Step 1: Start
-Step 2: Declare variables num1, num2 and sum. 
-Step 3: Read values num1 and num2. 
+Step 2: Declare variables num1, num2 and sum.
+Step 3: Read values num1 and num2.
 Step 4: Add num1 and num2 and assign the result to sum.
-        sum←num1+num2 
-Step 5: Display sum 
+        sum←num1+num2
+Step 5: Display sum
 Step 6: Stop
-``` 
+```
 
 ```
 function sum(int $number1, int $number2): int
@@ -56,7 +57,7 @@ Step 4: If a > b
            If b > c
               Display b is the largest number.
            Else
-              Display c is the greatest number.  
+              Display c is the greatest number.
 Step 5: Stop
 ```
 
@@ -134,7 +135,7 @@ Step 1: Start
 Step 2: Declare variables n, i, flag.
 Step 3: Initialize variables
         flag ← 1
-        i ← 2  
+        i ← 2
 Step 4: Read n from the user.
 Step 5: Repeat the steps until i=(n/2)
      5.1 If remainder of n÷i equals 0
@@ -145,7 +146,7 @@ Step 6: If flag = 0
            Display n is not prime
         else
            Display n is prime
-Step 7: Stop 
+Step 7: Stop
 ```
 
 ```
@@ -177,15 +178,15 @@ if (isPrime($number)) {
 ### Algorithm 6: Find the Fibonacci series till the term less than 1000
 
 ```
-Step 1: Start 
-Step 2: Declare variables first_term,second_term and temp. 
-Step 3: Initialize variables first_term ← 0 second_term ← 1 
-Step 4: Display first_term and second_term 
-Step 5: Repeat the steps until second_term ≤ 1000 
-     5.1: temp ← second_term 
-     5.2: second_term ← second_term + first_term 
-     5.3: first_term ← temp 
-     5.4: Display second_term 
+Step 1: Start
+Step 2: Declare variables first_term,second_term and temp.
+Step 3: Initialize variables first_term ← 0 second_term ← 1
+Step 4: Display first_term and second_term
+Step 5: Repeat the steps until second_term ≤ 1000
+     5.1: temp ← second_term
+     5.2: second_term ← second_term + first_term
+     5.3: first_term ← temp
+     5.4: Display second_term
 Step 6: Stop
 ```
 
@@ -207,3 +208,5 @@ function fibonacciSeries(int $number): void
 
 fibonacciSeries(1000);
 ```
+
+## <a href="https://www.programiz.com/dsa/data-structure-types" target="_blank">Data Structure Types</a>
