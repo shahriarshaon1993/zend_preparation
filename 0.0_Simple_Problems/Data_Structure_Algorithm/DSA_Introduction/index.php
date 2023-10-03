@@ -1,25 +1,13 @@
 <?php
 
-function isPrime(int $number): bool
+function factorial(int $n)
 {
-    if ($number <= 1) {
-        return false;
+    $fact = 1;
+    for ($v = 1; $v <= $n; $v++) {
+        $fact = $fact * $v;
     }
 
-    $sqrt = sqrt($number);
-    for ($i = 2; $i <= $sqrt; $i++) {
-        if ($number % $i == 0) {
-            return false;
-        }
-    }
-
-    return true;
+    return $fact;
 }
 
-// Example
-$number = 17;
-if (isPrime($number)) {
-    echo "{$number} is a prime number.";
-} else {
-    echo "{$number} is not a prime number.";
-}
+echo factorial(4);
