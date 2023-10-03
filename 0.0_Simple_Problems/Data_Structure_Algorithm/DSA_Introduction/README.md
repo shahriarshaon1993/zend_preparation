@@ -219,14 +219,14 @@ fibonacciSeries(1000);
 
 ### Big O(1):
 
-> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/img/bigO1.png)
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/img/bigO1.png)
 
 ### Big O(n):
 
-> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/img/bigOn.png)
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/img/bigOn.png)
 
 ### Big O(n^2):
 
-> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/img/bigOn-2.png)
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/img/bigOn-2.png)
 
-> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/Lesson_1.0_Intro/img/bigOn-2-2.png)
+> ![](https://github.com/shahriarshaon1993/zend_preparation/blob/main/0.0_Simple_Problems/Data_Structure_Algorithm/DSA_Introduction/img/bigOn-2-2.png)
