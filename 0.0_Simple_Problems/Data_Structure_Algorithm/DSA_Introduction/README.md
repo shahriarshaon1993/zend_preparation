@@ -210,3 +210,5 @@ fibonacciSeries(1000);
 ```
 
 ## <a href="https://www.programiz.com/dsa/data-structure-types" target="_blank">Data Structure Types</a>
+
+## <a href="https://www.programiz.com/dsa/why-algorithms" target="_blank">Why Learn Data Structures and</a>

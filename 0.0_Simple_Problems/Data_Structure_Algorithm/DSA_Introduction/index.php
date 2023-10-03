@@ -1,13 +1,8 @@
 <?php
 
-function factorial(int $n)
+function findSum(int $num): float
 {
-    $fact = 1;
-    for ($v = 1; $v <= $n; $v++) {
-        $fact = $fact * $v;
-    }
-
-    return $fact;
+    return $num * ($num + 1) / 2;
 }
 
-echo factorial(4);
+echo findSum(9999999);
