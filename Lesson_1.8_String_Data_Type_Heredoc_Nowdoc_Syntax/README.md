@@ -174,3 +174,11 @@ lcfirst(string $string): string
 
 lcfirst — Make a string's first character lowercase
 ```
+
+### <a href="https://www.php.net/manual/en/function.wordwrap.php" target="_blank">9. wordwrap()</a>
+
+```
+wordwrap( string $string, int $width = 75, string $break = "\n", bool  $cut_long_words = false ): string
+
+wordwrap — Wraps a string to a given number of characters
+```
