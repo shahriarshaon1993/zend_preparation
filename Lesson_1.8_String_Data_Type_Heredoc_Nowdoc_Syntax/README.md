@@ -182,3 +182,11 @@ wordwrap( string $string, int $width = 75, string $break = "\n", bool  $cut_long
 
 wordwrap — Wraps a string to a given number of characters
 ```
+
+### <a href="https://www.php.net/manual/en/function.trim.php" target="_blank">9. trim()</a>
+
+```
+trim(string $string, string $characters = " \n\r\t\v\x00"): string
+
+trim — Strip whitespace (or other characters) from the beginning and end of a string
+```

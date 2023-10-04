@@ -1,6 +1,12 @@
 <?php
 
-$text = "The quick brown fox jumped over the lazy dog.";
-$newtext = wordwrap($text, 20, "<br />\n");
+function trim_value(&$value)
+{
+    $value = trim($value);
+}
 
-echo $newtext;
+$fruit = array('apple', 'banana ', ' cranberry ');
+// var_dump($fruit);
+
+array_walk($fruit, 'trim_value');
+var_dump($fruit);
