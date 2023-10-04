@@ -2,11 +2,11 @@
 
 ## <a href="https://www.php.net/manual/en/language.types.string.php" target="_blank">Strings</a>
 
->> A string is a series of characters, where a character is the same as a byte. This means that PHP only supports a 256-character set, and hence does not offer native Unicode support
+> > A string is a series of characters, where a character is the same as a byte. This means that PHP only supports a 256-character set, and hence does not offer native Unicode support
 
 ## Single quoted
 
->> The simplest way to specify a string is to enclose it in single quotes (the character ').
+> > The simplest way to specify a string is to enclose it in single quotes (the character ').
 
 ```
 <?php
@@ -47,15 +47,15 @@ echo 'Variables do not $expand $either';
 \"	double-quote
 ```
 
-## Heredoc 
+## Heredoc
 
->> A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation.
+> > A third way to delimit strings is the heredoc syntax: <<<. After this operator, an identifier is provided, then a newline. The string itself follows, and then the same identifier again to close the quotation.
 
->> Strings may be concatenated using the '.' (dot) operator. Note that the '+' (addition) operator will not work for this. See String operators for more information.
+> > Strings may be concatenated using the '.' (dot) operator. Note that the '+' (addition) operator will not work for this. See String operators for more information.
 
 ## <a href="https://www.php.net/manual/en/language.operators.string.php" target="_blank">String Operators</a>
- 
->> There are two string operators. The first is the concatenation operator ('.'), which returns the concatenation of its right and left arguments. The second is the concatenating assignment operator ('.='), which appends the argument on the right side to the argument on the left side.
+
+> > There are two string operators. The first is the concatenation operator ('.'), which returns the concatenation of its right and left arguments. The second is the concatenating assignment operator ('.='), which appends the argument on the right side to the argument on the left side.
 
 ```
 $a = "Hello ";
@@ -70,7 +70,7 @@ $a .= "World!";     // now $a contains "Hello World!"
  $str1. $str2. $str3;   // two concats = slow
 ```
 
->> null is always converted to an empty string.
+> > null is always converted to an empty string.
 
 ### So the "highest code performance" style rules are:
 
@@ -80,7 +80,7 @@ $a .= "World!";     // now $a contains "Hello World!"
 3. Feel free to use single-quoted strings for TOTALLY literal strings such as array keys/values, variable values, etc, since they are a TINY bit faster when you want literal non-parsed strings. But I had to do 1 billion iterations to find a 1.55% measurable difference. So the only real reason I'd consider using single-quoted strings for my literals is for code cleanliness, to make it super clear that the string is literal.
 4. If you think another method such as sprintf() or 'this'.$var.'style' is more readable, and you don't care about maximizing performance, then feel free to use whatever concatenation method you prefer!
 ```
- 
+
 ## <a href="https://www.php.net/manual/en/ref.strings.php" target="_blank">Useful functions</a>
 
 ### <a href="https://www.php.net/manual/en/function.substr.php" target="_blank">1. substr()</a>
@@ -133,4 +133,12 @@ Returns string with all ASCII alphabetic characters converted to uppercase.
 
 ```
 str_word_count(string $string, int $format = 0, ?string $characters = null): array|int
+```
+
+### <a href="https://www.php.net/manual/en/function.strrev.php" target="_blank">8. strrev()</a>
+
+```
+strrev(string $string): string
+
+Returns string, reversed.
 ```
