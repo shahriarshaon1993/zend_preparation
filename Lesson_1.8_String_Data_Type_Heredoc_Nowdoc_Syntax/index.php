@@ -1,12 +1,5 @@
 <?php
 
-function trim_value(&$value)
-{
-    $value = trim($value);
-}
+$text = '<p>Test paragraph.</p><!-- Comment --> <a href="#fragment">Other text</a>';
 
-$fruit = array('apple', 'banana ', ' cranberry ');
-// var_dump($fruit);
-
-array_walk($fruit, 'trim_value');
-var_dump($fruit);
+echo strip_tags($text);

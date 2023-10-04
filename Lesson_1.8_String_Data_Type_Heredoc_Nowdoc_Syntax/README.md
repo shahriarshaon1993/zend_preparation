@@ -190,3 +190,11 @@ trim(string $string, string $characters = " \n\r\t\v\x00"): string
 
 trim — Strip whitespace (or other characters) from the beginning and end of a string
 ```
+
+### <a href="https://www.php.net/manual/en/function.strip-tags.php" target="_blank">9. strip_tags()</a>
+
+```
+strip_tags(string $string, array|string|null $allowed_tags = null): string
+
+strip_tags — Strip HTML and PHP tags from a string
+```
