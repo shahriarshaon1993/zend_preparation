@@ -1,6 +1,6 @@
 <?php
 
-$foo = 'hello world!';
-$foo = ucfirst($foo);
+$foo = 'Hello World!';
+$foo = lcfirst($foo);
 
 echo $foo;

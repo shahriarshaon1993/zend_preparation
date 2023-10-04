@@ -166,3 +166,11 @@ ucfirst(string $string): string
 
 ucfirst — Make a string's first character uppercase
 ```
+
+### <a href="https://www.php.net/manual/en/function.lcfirst.php" target="_blank">9. lcfirst()</a>
+
+```
+lcfirst(string $string): string
+
+lcfirst — Make a string's first character lowercase
+```
