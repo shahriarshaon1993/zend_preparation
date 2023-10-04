@@ -1,6 +1,6 @@
 <?php
 
 $foo = 'hello world!';
-$foo = ucwords($foo);
+$foo = ucfirst($foo);
 
 echo $foo;
