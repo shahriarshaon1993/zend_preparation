@@ -142,3 +142,11 @@ strrev(string $string): string
 
 Returns string, reversed.
 ```
+
+### <a href="https://www.php.net/manual/en/function.strpos.php" target="_blank">9. strpos()</a>
+
+```
+strpos(string $haystack, string $needle, int $offset = 0): int|false
+
+strpos — Find the position of the first occurrence of a substring in a string
+```
