@@ -150,3 +150,11 @@ strpos(string $haystack, string $needle, int $offset = 0): int|false
 
 strpos — Find the position of the first occurrence of a substring in a string
 ```
+
+### <a href="https://www.php.net/manual/en/function.ucwords.php" target="_blank">9. ucwords()</a>
+
+```
+ucwords(string $string, string $separators = " \t\r\n\f\v"): string
+
+ucwords — Uppercase the first character of each word in a string
+```
