@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_1.11_Expressions_In_PHP/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_1.11_Expressions_In_PHP/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.12_PHP_Operators_Part_1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.12_PHP_Operators_Part_1/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +189,7 @@
       <workItem from="1724782988307" duration="4717000" />
       <workItem from="1724833436239" duration="15000" />
       <workItem from="1724833819566" duration="32000" />
-      <workItem from="1724862421368" duration="1677000" />
+      <workItem from="1724862421368" duration="4757000" />
     </task>
     <servers />
   </component>
