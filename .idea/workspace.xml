@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_1.15_Control_Structures_in_PHP/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_1.15_Control_Structures_in_PHP/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.17_PHP_Switch_Statement/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.17_PHP_Switch_Statement/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,21 +127,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workstation/laragon/www/zend_preparation&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/workstation/laragon/www/zend_preparation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workstation\laragon\www\zend_preparation" />
@@ -191,7 +192,8 @@
       <workItem from="1724833819566" duration="32000" />
       <workItem from="1724862421368" duration="4757000" />
       <workItem from="1724906331291" duration="177000" />
-      <workItem from="1724942848306" duration="1650000" />
+      <workItem from="1724942848306" duration="6376000" />
+      <workItem from="1725038746591" duration="3499000" />
     </task>
     <servers />
   </component>
