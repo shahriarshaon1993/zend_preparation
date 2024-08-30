@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_1.17_PHP_Switch_Statement/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_1.17_PHP_Switch_Statement/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.18_PHP_Switch_Statement/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.18_PHP_Switch_Statement/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_1.17_PHP_Switch_Statement/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.17_PHP_Match_Expression/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_1.17_PHP_Switch_Statement/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.17_PHP_Match_Expression/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +196,7 @@
       <workItem from="1724862421368" duration="4757000" />
       <workItem from="1724906331291" duration="177000" />
       <workItem from="1724942848306" duration="6376000" />
-      <workItem from="1725038746591" duration="3499000" />
+      <workItem from="1725038746591" duration="5855000" />
     </task>
     <servers />
   </component>
