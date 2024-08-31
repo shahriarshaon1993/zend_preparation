@@ -1,21 +1,13 @@
-## Lesson 1.19 - PHP Return, Declare & Tickable Statements
-
-### Return:
-
-> return returns program control to the calling module. Execution resumes
-> at the expression following the called module's invocation.
-
-> If called from within a function, the return statement immediately ends 
-> execution of the current function, and returns its argument as the value 
-> of the function call. return also ends the execution of an eval() statement 
-> or script file.
-
-> Note: Note that since return is a language construct and not a function, the 
-> parentheses surrounding its argument are not required and their use is discouraged.
-
-### Declare:
+## Lesson 1.20 - How To Include Files In PHP - Include and Require
 
 ```php
-declare(strict_types=1);
+include 'file.php';
+require 'file.php';
 ```
 
+> The differance between include and require is that include will result in a
+> warning while require will result in a error stop the script execution
+
+> include_once & require_once these two are the same as the include and require
+> the differance between being that these two will only include the file if it hasn't
+> been included already. That file is being only include one time this can be useful.
