@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_1.22_PHP_Variable_Scopes_Static_Variables/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_1.22_PHP_Variable_Scopes_Static_Variables/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.24_Variable_Anonymous_Callable_Closure_Arrow Functions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.24_Variable_Anonymous_Callable_Closure_Arrow Functions/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,6 +198,7 @@
       <workItem from="1725120979546" duration="1285000" />
       <workItem from="1725122490066" duration="4226000" />
       <workItem from="1725168425016" duration="25000" />
+      <workItem from="1725207678441" duration="2951000" />
     </task>
     <servers />
   </component>
