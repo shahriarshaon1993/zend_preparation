@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_1.21_Functions_In_PHP/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_1.21_Functions_In_PHP/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.22_PHP_Variable_Scopes_Static_Variables/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_1.22_PHP_Variable_Scopes_Static_Variables/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_1.19_PHP_Return_Declare_and_Tickable_Statements/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.20_PHP_Return_Declare_and_Tickable_Statements/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_1.19_PHP_Return_Declare_and_Tickable_Statements/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.20_PHP_Return_Declare_and_Tickable_Statements/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +196,8 @@
       <workItem from="1725038746591" duration="6877000" />
       <workItem from="1725047004888" duration="1124000" />
       <workItem from="1725120979546" duration="1285000" />
-      <workItem from="1725122490066" duration="3180000" />
+      <workItem from="1725122490066" duration="4226000" />
+      <workItem from="1725168425016" duration="25000" />
     </task>
     <servers />
   </component>
