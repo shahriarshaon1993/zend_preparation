@@ -3,7 +3,7 @@
 ### Constructor Property Promotion:
 
 ```php
-class Transaction 
+class Paddle\Transaction 
 {
     public function __construct(
        private float $amount,
@@ -14,7 +14,7 @@ class Transaction
 ```
 
 ```php
-class Transaction 
+class Paddle\Transaction 
 {
     public function __construct(
        private float $amount,
@@ -27,7 +27,7 @@ class Transaction
 > You can set the default value here.
 
 ```php
-class Transaction 
+class Paddle\Transaction 
 {
     public function __construct(
        private float $amount,
@@ -38,7 +38,7 @@ class Transaction
 ```
 
 ```php
-class Transaction 
+class Paddle\Transaction 
 {
     public function __construct(
        private float $amount,

@@ -13,14 +13,14 @@ class Transaction
         $this->description = $description;
     }
 
-    public function addTax(float $rate): Transaction
+    public function addTax(float $rate): Paddle\Transaction
     {
         $this->amount += $this->amount * $rate / 100;
 
         return $this;
     }
 
-    public function applyDiscount(float $rate): Transaction
+    public function applyDiscount(float $rate): Paddle\Transaction
     {
         $this->amount -= $this->amount * $rate / 100;
 

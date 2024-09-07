@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86323d2b-0cf8-4881-9951-c974fcc80cf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/docker/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/src/Customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/src/PaymentProfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/src/Transaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/src/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_2.4_PHP_Namespace/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_2.4_PHP_Namespace/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_2.4_PHP_Namespace/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_2.4_PHP_Namespace/docker/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_2.4_PHP_Namespace/src/PaymentGateway/Paddle/CustomerProfile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_2.4_PHP_Namespace/src/PaymentGateway/Paddle/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_2.4_PHP_Namespace/src/PaymentGateway/Stripe/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_2.4_PHP_Namespace/src/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_1.31_Building_Small_Part_Of_The_App/transaction_files/sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_1.31_Building_Small_Part_Of_The_App/transaction_files/sample.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_2.2_PHP_Classes_and_Objects/src/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_2.2_PHP_Classes_and_Objects/src/Transaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_2.2_PHP_Classes_and_Objects/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_2.2_PHP_Classes_and_Objects/src/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_2.3_Constructor_Property_Promotion/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +220,7 @@
       <workItem from="1725555951242" duration="4624000" />
       <workItem from="1725642462316" duration="200000" />
       <workItem from="1725644137676" duration="4500000" />
-      <workItem from="1725725367105" duration="3444000" />
+      <workItem from="1725725367105" duration="6309000" />
     </task>
     <servers />
   </component>
