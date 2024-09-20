@@ -1,0 +1,1 @@
+<?phpdeclare(strict_types=1);require __DIR__ . '/../vendor/autoload.php';$obj = new \App\ClassA(1, 2);var_dump($obj->bar());
