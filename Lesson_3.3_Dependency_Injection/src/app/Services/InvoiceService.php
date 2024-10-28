@@ -5,9 +5,9 @@ namespace App\Services;
 class InvoiceService
 {
     public function __construct(
-        protected SalesTaxService $salesTaxService,
-        protected GatewayService $gatewayService,
-        protected EmailService $emailService,
+        protected SalesTaxService       $salesTaxService,
+        protected PaymentGatewayService $gatewayService,
+        protected EmailService          $emailService,
     ){
     }
 

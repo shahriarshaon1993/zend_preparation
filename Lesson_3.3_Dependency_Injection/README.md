@@ -51,3 +51,10 @@ class InvoiceService
     DI container simply put is just a class that has information about other classes which
     enables it to resolve classes whit there dependencies.
 ```
+
+### Auto wiring
+
+```text
+    Auto wiring which allows container to resolve classes with it's dependencies without having
+    explicit bindings.
+```
