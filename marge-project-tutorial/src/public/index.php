@@ -32,13 +32,59 @@ require __DIR__ . '/../vendor/autoload.php';
 //    new Config($_ENV)
 //))->run();
 
-$invoice1 = new \App\Examples\Invoice();
-$map = new WeakMap();
+// Example 1
+//$map = new WeakMap();
+//
+//$obj = new stdClass();
+//
+//$store = new WeakMap();
+//
+//$store[$obj] = 'foobar';
+//
+//var_dump($store);
+//
+//unset($obj);
+//
+//var_dump($store);
 
-//$invoice2 = $invoice1;
+// Example 2
 
-var_dump(count($map));
-unset($invoice1);
-var_dump(count($map));
+interface Event {}
 
-var_dump($map);
+class SomeEvent implements Event {}
+
+class AnotherEvent implements Event {}
+
+class Dispatcher
+{
+    protected WeakMap $dispatchCount;
+
+    public function __construct()
+    {
+        $this->dispatchCount = new WeakMap();
+    }
+
+    public function dispatch(Event $event): void
+    {
+        $this->incrementDispatches($event);
+
+        // dispatch the event
+    }
+
+    protected function incrementDispatches(Event $event): void
+    {
+        $this->dispatchCount[$event] ??= 0;
+        $this->dispatchCount[$event]++;
+    }
+}
+
+$dispatcher = new Dispatcher();
+
+$event = new SomeEvent();
+$dispatcher->dispatch($event);
+$dispatcher->dispatch($event);
+
+$anotherEvent = new AnotherEvent();
+$dispatcher->dispatch($anotherEvent);
+
+var_dump($dispatcher);
