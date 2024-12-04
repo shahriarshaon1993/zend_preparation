@@ -11,23 +11,34 @@ use App\Router;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
-$dotenv->load();
+//$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
+//$dotenv->load();
+//
+//const STORAGE_PATH = __DIR__ . '/../storage';
+//const VIEW_PATH = __DIR__ . '/../views';
+//
+//$container = new Container();
+//$router = new Router($container);
+//
+//$router
+//    ->get('/', [HomeController::class, 'index'])
+//    ->get('/generator', [GeneratorController::class, 'index']);
+//
+//
+//(new App(
+//    $container,
+//    $router,
+//    ['uri' => $_SERVER['REQUEST_URI'], 'method' => $_SERVER['REQUEST_METHOD']],
+//    new Config($_ENV)
+//))->run();
 
-const STORAGE_PATH = __DIR__ . '/../storage';
-const VIEW_PATH = __DIR__ . '/../views';
+$invoice1 = new \App\Examples\Invoice();
+$map = new WeakMap();
 
-$container = new Container();
-$router = new Router($container);
+//$invoice2 = $invoice1;
 
-$router
-    ->get('/', [HomeController::class, 'index'])
-    ->get('/generator', [GeneratorController::class, 'index']);
+var_dump(count($map));
+unset($invoice1);
+var_dump(count($map));
 
-
-(new App(
-    $container,
-    $router,
-    ['uri' => $_SERVER['REQUEST_URI'], 'method' => $_SERVER['REQUEST_METHOD']],
-    new Config($_ENV)
-))->run();
+var_dump($map);
