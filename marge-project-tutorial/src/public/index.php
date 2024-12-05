@@ -4,12 +4,8 @@ declare(strict_types=1);
 
 require __DIR__ . '/../vendor/autoload.php';
 
-function foo(): never
-{
-    echo 1;
-    exit;
-}
+$list = ['a', 'b', 'c'];
+$notList = [1 => 'a', 'b', 'c'];
 
-foo();
-
-echo 'I should *never* be printed';
+var_dump(array_is_list($list));
+var_dump(array_is_list($notList));
