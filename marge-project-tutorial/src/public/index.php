@@ -4,8 +4,14 @@ declare(strict_types=1);
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$list = ['a', 'b', 'c'];
-$notList = [1 => 'a', 'b', 'c'];
+function sum(float ...$numbers): float
+{
+    return array_sum($numbers);
+}
 
-var_dump(array_is_list($list));
-var_dump(array_is_list($notList));
+//$closure = Closure::fromCallable('sum');
+$closure = sum(...);
+
+var_dump($closure);
+
+echo $closure(2, 5) . PHP_EOL;
