@@ -2,13 +2,16 @@
 
 declare(strict_types=1);
 
-use App\Examples\Payment;
-use App\Examples\PaymentStatus;
+use App\Examples\Address;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$payment = new Payment();
+$address = new Address(
+    '123 Main St',
+    'New York',
+    'NY',
+    '10011',
+    'US'
+);
 
-$payment->updateStatus(PaymentStatus::PAID);
-
-echo $payment->status()->text() . PHP_EOL;
+echo $address->street . PHP_EOL;
