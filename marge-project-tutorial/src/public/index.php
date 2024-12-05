@@ -2,9 +2,13 @@
 
 declare(strict_types=1);
 
-$array1 = [1, 2, 3];
-$array2 = [4, 5, 6];
+use App\Examples\Payment;
+use App\Examples\PaymentStatus;
 
-$array3 = [...$array1, ...$array2];
+require __DIR__ . '/../vendor/autoload.php';
 
-print_r($array3);
+$payment = new Payment();
+
+$payment->updateStatus(PaymentStatus::PAID);
+
+echo $payment->status()->text() . PHP_EOL;
