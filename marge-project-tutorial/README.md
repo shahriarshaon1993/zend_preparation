@@ -1,4 +1,3 @@
-## Lesson 3.7: Weak maps -> Laracasts
+## Lesson 3.8: What's New In PHP 8.1 - Deprecations & Backward Incompatible Changes
 
-> Weak maps is effectively key value store very much like an array.
-> Except your keys are object.
+### Array Unpacking with string keys.
