@@ -4,12 +4,8 @@ namespace App\Examples;
 
 readonly class Address
 {
-    public function __construct(
-        public string $street,
-        public string $city,
-        public string $state,
-        public string $zip,
-        public string $country
-    ) {
+    public function __construct()
+    {
+        var_dump('hello');
     }
 }

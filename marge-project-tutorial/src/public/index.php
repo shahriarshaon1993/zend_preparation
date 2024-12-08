@@ -2,16 +2,11 @@
 
 declare(strict_types=1);
 
+use App\Examples\Address;
+use App\Examples\Customer;
+
 require __DIR__ . '/../vendor/autoload.php';
 
-function sum(float ...$numbers): float
-{
-    return array_sum($numbers);
-}
+$customer = new Customer(new Address());
 
-//$closure = Closure::fromCallable('sum');
-$closure = sum(...);
-
-var_dump($closure);
-
-echo $closure(2, 5) . PHP_EOL;
+var_dump($customer->address);
