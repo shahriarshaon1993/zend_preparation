@@ -2,10 +2,29 @@
 
 declare(strict_types=1);
 
-use App\Examples\Address;
-use App\Examples\Customer;
-use App\Examples\InvoiceQuery;
+use App\Examples\Covariance\AnimalFood;
+use App\Examples\Covariance\CatShelter;
+use App\Examples\Covariance\DogShelter;
+use App\Examples\Covariance\Food;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-echo InvoiceQuery::DEFAULT_LIMIT;
+$kitty = (new CatShelter())->adopt("Ricky");
+$kitty->speak();
+
+echo PHP_EOL;
+
+$catFood = new AnimalFood();
+$kitty->eat($catFood);
+
+echo PHP_EOL;
+
+$doggy = (new DogShelter())->adopt("Mavrick");
+$doggy->speak();
+
+echo PHP_EOL;
+
+$banana = new Food();
+$doggy->eat($banana);
+
+echo PHP_EOL;

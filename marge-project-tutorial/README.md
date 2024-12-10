@@ -1,11 +1,24 @@
-## Lesson 3.8: What's New In PHP 8.1 - Deprecations & Backward Incompatible Changes
+## Lesson 3.9: Covariance & Contravariance in PHP
 
-### Array Unpacking with string keys.
+### What is Covariance?
 
-### Never return type
+> Covariance allows a child's method to return a more specific type than 
+> the return type of its parent's method.
 
-> Void VS Never:
-> The difference is that when you call a function or a method that has a void 
-> as the return type the code continues execution after the function or the
-> method is called. calling a method or a function with the never type is expected
-> to stop the execution.
+### What is Contravariance ?
+
+> Contravariance allows a parameter type to be less specific in a child method, than that of its parent.
+
+### Summary
+
+```text
+Covariance
+    - LESS specific to MORE specific
+    
+Contravariance
+    - MORE specific to LESS specific
+    
+PHP supports
+    - Covariant return types
+    - Contravariance parameter types
+```
