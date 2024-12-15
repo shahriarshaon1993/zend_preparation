@@ -1,24 +1,11 @@
-## Lesson 3.9: Covariance & Contravariance in PHP
+## Lesson 3.10: PHP Attributes - Simple Router With Attributes
 
-### What is Covariance?
+### PHP Attributes
 
-> Covariance allows a child's method to return a more specific type than 
-> the return type of its parent's method.
-
-### What is Contravariance ?
-
-> Contravariance allows a parameter type to be less specific in a child method, than that of its parent.
-
-### Summary
-
-```text
-Covariance
-    - LESS specific to MORE specific
-    
-Contravariance
-    - MORE specific to LESS specific
-    
-PHP supports
-    - Covariant return types
-    - Contravariance parameter types
-```
+> Attributes offer the ability to add structured, machine-readable 
+> metadata information on declarations in code: Classes, methods, 
+> functions, parameters, properties and class constants can be the 
+> target of an attribute. The metadata defined by attributes can then
+> be inspected at runtime using the Reflection APIs. Attributes could
+> therefore be thought of as a configuration language embedded directly
+> into code.  

@@ -2,29 +2,45 @@
 
 declare(strict_types=1);
 
-use App\Examples\Covariance\AnimalFood;
-use App\Examples\Covariance\CatShelter;
-use App\Examples\Covariance\DogShelter;
-use App\Examples\Covariance\Food;
+use App\App;
+use App\Config;
+use App\Container;
+use App\Controllers\GeneratorController;
+use App\Controllers\HomeController;
+use App\Router;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$kitty = (new CatShelter())->adopt("Ricky");
-$kitty->speak();
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
+$dotenv->load();
 
-echo PHP_EOL;
+const STORAGE_PATH = __DIR__ . '/../storage';
+const VIEW_PATH = __DIR__ . '/../views';
 
-$catFood = new AnimalFood();
-$kitty->eat($catFood);
+$container = new Container();
+$router = new Router($container);
 
-echo PHP_EOL;
+try {
+    $router->registerRoutesFromControllerAttributes([
+        HomeController::class,
+        GeneratorController::class
+    ]);
+} catch (ReflectionException $e) {
+    echo $e->getMessage();
+}
 
-$doggy = (new DogShelter())->adopt("Mavrick");
-$doggy->speak();
+echo '<pre>';
+print_r($router->routes());
+echo '</pre>';
 
-echo PHP_EOL;
+//$router
+//    ->get('/', [HomeController::class, 'index'])
+//    ->get('/generator', [GeneratorController::class, 'index']);
 
-$banana = new Food();
-$doggy->eat($banana);
 
-echo PHP_EOL;
+(new App(
+    $container,
+    $router,
+    ['uri' => $_SERVER['REQUEST_URI'], 'method' => $_SERVER['REQUEST_METHOD']],
+    new Config($_ENV)
+))->run();
