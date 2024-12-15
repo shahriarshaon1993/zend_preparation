@@ -7,6 +7,7 @@ use App\Config;
 use App\Container;
 use App\Controllers\GeneratorController;
 use App\Controllers\HomeController;
+use App\Controllers\InvoiceController;
 use App\Router;
 
 require __DIR__ . '/../vendor/autoload.php';
@@ -23,15 +24,16 @@ $router = new Router($container);
 try {
     $router->registerRoutesFromControllerAttributes([
         HomeController::class,
-        GeneratorController::class
+        GeneratorController::class,
+        InvoiceController::class
     ]);
 } catch (ReflectionException $e) {
     echo $e->getMessage();
 }
 
-echo '<pre>';
-print_r($router->routes());
-echo '</pre>';
+//echo '<pre>';
+//print_r($router->routes());
+//echo '</pre>';
 
 //$router
 //    ->get('/', [HomeController::class, 'index'])

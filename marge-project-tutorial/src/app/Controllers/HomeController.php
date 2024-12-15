@@ -7,12 +7,14 @@ namespace App\Controllers;
 use App\Attributes\Get;
 use App\Attributes\Post;
 use App\Attributes\Put;
+use App\Attributes\Route;
+use App\Enums\HttpMethod;
 use App\View;
 
 class HomeController
 {
     #[Get('/')]
-    #[Get(routePath: '/home')]
+    #[Route('/home', HttpMethod::Delete)]
     public function index(): View
     {
         return View::make('index');
