@@ -1,18 +1,9 @@
-## Lesson 3.11: PHP Enums With Practical Examples
+## Lesson 3.12: Composition vs Inheritance in PHP With Practical Examples
 
-> Enum classes can implement interfaces and can use traits but
-> you cannot use inheritance
+### Inheritance IS-A Relation Between Classes
+### Composition HAS-A Relation Between Classes
 
-### Constructors & Destructors [Not allowed]
-### Inheritance & Properties [Not allowed]
-### Cloning [Not allowed]
-### Magic Methods [Not allowed] -> Except __call, __callStatic, __invoke
-### Instantiation [Not allowed]
-
-
-### Public, Private & Protected Methods[Allowed]
-### Static Methods & Constants [Allowed]
-### Interface [Allowed]
-### Traits (Without Properties) [Allowed]
-### Enum Class Attributes Attribute::TARGET_CLASS [Allowed]
-### Enum Case Attributes Attributes::TARGET_CLASS_CONSTANT [Allowed]
+### Inheritance use case
+- What is the relationship? ('is-a' vs 'has-a')
+- Inherits useless methods/properties?
+- Are classes substitutable?
