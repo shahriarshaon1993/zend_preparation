@@ -2,20 +2,49 @@
 
 declare(strict_types=1);
 
-use App\Examples\InvoiceQuery;
-use App\Examples\SalesTaxCalculator;
+use App\App;
+use App\Config;
+use App\Container;
+use App\Controllers\GeneratorController;
+use App\Controllers\HomeController;
+use App\Controllers\InvoiceController;
+use App\Controllers\UserController;
+use App\Router;
 
 require __DIR__ . '/../vendor/autoload.php';
 
 $dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->load();
 
-$invoice = new InvoiceQuery(new SalesTaxCalculator());
+const STORAGE_PATH = __DIR__ . '/../storage';
+const VIEW_PATH = __DIR__ . '/../views';
 
-$invoice->create(
-    [
-        ['description' => 'Item 1', 'quantity' => 1, 'unitPrice' => 15.25],
-        ['description' => 'Item 2', 'quantity' => 2, 'unitPrice' => 2],
-        ['description' => 'Item 3', 'quantity' => 3, 'unitPrice' => 0.25]
-    ]
-);
+$container = new Container();
+$router = new Router($container);
+
+try {
+    $router->registerRoutesFromControllerAttributes([
+        HomeController::class,
+        GeneratorController::class,
+        InvoiceController::class,
+        UserController::class,
+    ]);
+} catch (ReflectionException $e) {
+    echo $e->getMessage();
+}
+
+//echo '<pre>';
+//print_r($router->routes());
+//echo '</pre>';
+
+//$router
+//    ->get('/', [HomeController::class, 'index'])
+//    ->get('/generator', [GeneratorController::class, 'index']);
+
+
+(new App(
+    $container,
+    $router,
+    ['uri' => $_SERVER['REQUEST_URI'], 'method' => $_SERVER['REQUEST_METHOD']],
+    new Config($_ENV)
+))->run();
