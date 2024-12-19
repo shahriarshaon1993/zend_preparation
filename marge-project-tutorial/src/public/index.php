@@ -13,9 +13,6 @@ use App\Router;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
-$dotenv->load();
-
 const STORAGE_PATH = __DIR__ . '/../storage';
 const VIEW_PATH = __DIR__ . '/../views';
 
@@ -33,10 +30,6 @@ try {
     echo $e->getMessage();
 }
 
-//echo '<pre>';
-//print_r($router->routes());
-//echo '</pre>';
-
 //$router
 //    ->get('/', [HomeController::class, 'index'])
 //    ->get('/generator', [GeneratorController::class, 'index']);
@@ -45,6 +38,5 @@ try {
 (new App(
     $container,
     $router,
-    ['uri' => $_SERVER['REQUEST_URI'], 'method' => $_SERVER['REQUEST_METHOD']],
-    new Config($_ENV)
-))->run();
+    ['uri' => $_SERVER['REQUEST_URI'], 'method' => $_SERVER['REQUEST_METHOD']]
+))->boot()->run();

@@ -1,16 +1,11 @@
-## Lesson 3.13: How to Send Email in PHP - Symfony Mailer - Email Protocols - Mailhog Setup
+## Lesson 3.14: How to Schedule Emails in PHP - Run Automated Scripts Using CRON
 
-### Email Protocols:
-- SMTP = Simple Mail Transfer Protocol (Outbound Emails)
-- IMAP = Post Office Protocol (V3) - (Inbound Emails)
-- POP3 = Internet Message Access Protocol - (Inbound Emails)
-
-> IMAP/POP3 are protocols that are used for retrieving or receiving emails.
+### CRON:
 
 ```text
-IMAP vs POP3: The difference is that IMAP offers more features than POP3 for
-example POP3 by default deletes the email from the server after it retrieves
-it while IMAP on the other hand does not delete the email on the server and
-allows it to be synced across multiple client so the emails with IMAP are
-stored on the server. 
+    Cron is a job scheduler tool for unix system that's lets us run
+    scripts or jobs automatically at specific times or specific schedule
+    the schedule of the jobs or script are stored in a file called crontab
+    which is short for crown table. each entry or the line in the crown table
+    is the job that we want to run and execute.
 ```
