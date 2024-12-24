@@ -16,20 +16,6 @@ enum InvoiceStatus: int implements SomeInterface
     case Void = 2;
     case Failed = 3;
 
-//    public const int PENDING = 0;
-//    public const int PAID = 1;
-//    public const int VOID = 2;
-//    public const int FAILED = 3;
-
-//    public static function all(): array
-//    {
-//        return [
-//            self::PENDING,
-//            self::PAID,
-//            self::VOID,
-//            self::FAILED
-//        ];
-//    }
     public function toString(): string
     {
         return match ($this) {
