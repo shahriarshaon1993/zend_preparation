@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 use App\Entity\Invoice;
-use App\Entity\InvoiceItem;
 use App\Enums\InvoiceStatus;
 use Doctrine\DBAL\DriverManager;
 use Doctrine\ORM\EntityManager;
@@ -29,31 +28,44 @@ $connection = DriverManager::getConnection($params);
 
 $entityManager = new EntityManager($connection, $config);
 
-$items = [['Item 1', 1, 15], ['Item 2', 2, 7.5], ['Item 3', 4, 3.75]];
+$queryBuilder = $entityManager->createQueryBuilder();
 
-//$invoice = (new Invoice())
-//    ->setAmount(45)
-//    ->setInvoiceNumber('1')
-//    ->setStatus(InvoiceStatus::Pending)
-//    ->setCreatedAt(new DateTime())
-//    ->setUpdatedAt(new DateTime());
-//
-//foreach ($items as [$description, $quantity, $unitPrice]) {
-//    $item = (new InvoiceItem())
-//        ->setDescription($description)
-//        ->setQuantity($quantity)
-//        ->setUnitPrice($unitPrice);
-//
-//    $invoice->addItem($item);
-//}
-//
-//$entityManager->persist($invoice);
+// WHERE amount > :amount AND (status = :status OR created_at >= :date)
+$query = $queryBuilder
+//    ->select('i.createdAt', 'i.amount')
+    ->select('i', 'it')
+    ->from(Invoice::class, 'i')
+    ->join('i.items', 'it')
+//    ->where('i.amount > :amount')
+    ->where(
+        $queryBuilder->expr()->andX(
+            $queryBuilder->expr()->gt('i.amount', ':amount'),
+            $queryBuilder->expr()->orX(
+                $queryBuilder->expr()->eq('i.status', ':status'),
+                $queryBuilder->expr()->gte('i.createdAt', ':date'),
+            )
+        )
+    )
+    ->setParameter('amount', 100)
+    ->setParameter('status', InvoiceStatus::Paid->value)
+    ->setParameter('date', '2024-12-24 00:00:00')
+    ->orderBy('i.createdAt', 'desc')
+    ->getQuery();
 
-/** Update */
-$invoice = $entityManager->find(Invoice::class, 3);
+//var_dump($query->getArrayResult());
+//exit;
 
-$invoice->setStatus(InvoiceStatus::Paid);
-$invoice->getItems()->get(0)->setDescription('Foo Bar');
+$invoices = $query->getResult();
 
+/** @var Invoice $invoice */
+foreach ($invoices as $invoice) {
+    echo $invoice->getCreatedAt()->format('m/d/Y g:ia')
+        . ', ' . $invoice->getAmount()
+        . ', ' . $invoice->getStatus()->toString() . PHP_EOL;
 
-$entityManager->flush();
+    foreach ($invoice->getItems() as $item) {
+        echo ' - ' . $item->getDescription()
+            . ', ' . $item->getQuantity()
+            . ', ' . $item->getUnitPrice() . PHP_EOL;
+    }
+}
