@@ -36,6 +36,9 @@ class Invoice
     #[Column(name: 'updated_at')]
     private \DateTime $updatedAt;
 
+    #[Column(name: 'due_date')]
+    private \DateTime $dueDate;
+
     #[OneToMany(targetEntity: InvoiceItem::class, mappedBy: 'invoice', cascade: ['persist', 'remove'])]
     private Collection $items;
 

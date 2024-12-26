@@ -1293,3 +1293,272 @@ Stack trace:
 #1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
 #2 {main}
   thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for db failed: Try again in /var/www/vendor/doctrine/dbal/src/Driver/PDO/PDOConnect.php:23
+Stack trace:
+#0 /var/www/vendor/doctrine/dbal/src/Driver/PDO/PDOConnect.php(23): PDO->__construct('mysql:host=db;d...', 'root', Object(SensitiveParameterValue), Array)
+#1 /var/www/vendor/doctrine/dbal/src/Driver/PDO/MySQL/Driver.php(45): Doctrine\DBAL\Driver\PDO\MySQL\Driver->doConnect('mysql:host=db;d...', 'root', 'root', Array)
+#2 /var/www/vendor/doctrine/dbal/src/Connection.php(217): Doctrine\DBAL\Driver\PDO\MySQL\Driver->connect(Object(SensitiveParameterValue))
+#3 /var/www/vendor/doctrine/dbal/src/Connection.php(731): Doctrine\DBAL\Connection->connect()
+#4 [internal function]: Doctrine\DBAL\Connection->prepare('SELECT * FROM e...')
+#5 /var/www/app/DB.php(22): call_user_func_array(Array, Array)
+#6 /var/www/app/Models/Email.php(26): App\DB->__call('prepare', Array)
+#7 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#8 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#9 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for db failed: Try again in /var/www/vendor/doctrine/dbal/src/Driver/PDO/PDOConnect.php:23
+Stack trace:
+#0 /var/www/vendor/doctrine/dbal/src/Driver/PDO/PDOConnect.php(23): PDO->__construct('mysql:host=db;d...', 'root', Object(SensitiveParameterValue), Array)
+#1 /var/www/vendor/doctrine/dbal/src/Driver/PDO/MySQL/Driver.php(45): Doctrine\DBAL\Driver\PDO\MySQL\Driver->doConnect('mysql:host=db;d...', 'root', 'root', Array)
+#2 /var/www/vendor/doctrine/dbal/src/Connection.php(217): Doctrine\DBAL\Driver\PDO\MySQL\Driver->connect(Object(SensitiveParameterValue))
+#3 /var/www/vendor/doctrine/dbal/src/Connection.php(731): Doctrine\DBAL\Connection->connect()
+#4 [internal function]: Doctrine\DBAL\Connection->prepare('SELECT * FROM e...')
+#5 /var/www/app/DB.php(22): call_user_func_array(Array, Array)
+#6 /var/www/app/Models/Email.php(26): App\DB->__call('prepare', Array)
+#7 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#8 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#9 {main}
+
+Next Doctrine\DBAL\Driver\PDO\Exception: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for db failed: Try again in /var/www/vendor/doctrine/dbal/src/Driver/PDO/Exception.php:28
+Stack trace:
+#0 /var/www/vendor/doctrine/dbal/src/Driver/PDO/MySQL/Driver.php(52): Doctrine\DBAL\Driver\PDO\Exception::new(Object(PDOException))
+#1 /var/www/vendor/doctrine/dbal/src/Connection.php(217): Doctrine\DBAL\Driver\PDO\MySQL\Driver->connect(Object(SensitiveParameterValue))
+#2 /var/www/vendor/doctrine/dbal/src/Connection.php(731): Doctrine\DBAL\Connection->connect()
+#3 [internal function]: Doctrine\DBAL\Connection->prepare('SELECT * FROM e...')
+#4 /var/www/app/DB.php(22): call_user_func_array(Array, Array)
+#5 /var/www/app/Models/Email.php(26): App\DB->__call('prepare', Array)
+#6 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#7 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#8 {main}
+
+Next Doctrine\DBAL\Exception\ConnectionException: An exception occurred in the driver: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for db failed: Try again in /var/www/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php:80
+Stack trace:
+#0 /var/www/vendor/doctrine/dbal/src/Connection.php(1373): Doctrine\DBAL\Driver\API\MySQL\ExceptionConverter->convert(Object(Doctrine\DBAL\Driver\PDO\Exception), NULL)
+#1 /var/www/vendor/doctrine/dbal/src/Connection.php(1321): Doctrine\DBAL\Connection->handleDriverException(Object(Doctrine\DBAL\Driver\PDO\Exception), NULL)
+#2 /var/www/vendor/doctrine/dbal/src/Connection.php(219): Doctrine\DBAL\Connection->convertException(Object(Doctrine\DBAL\Driver\PDO\Exception))
+#3 /var/www/vendor/doctrine/dbal/src/Connection.php(731): Doctrine\DBAL\Connection->connect()
+#4 [internal function]: Doctrine\DBAL\Connection->prepare('SELECT * FROM e...')
+#5 /var/www/app/DB.php(22): call_user_func_array(Array, Array)
+#6 /var/www/app/Models/Email.php(26): App\DB->__call('prepare', Array)
+#7 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#8 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#9 {main}
+  thrown in /var/www/vendor/doctrine/dbal/src/Driver/API/MySQL/ExceptionConverter.php on line 80
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
+
+Fatal error: Uncaught Error: Call to private method Doctrine\DBAL\Statement::execute() from scope App\Models\Email in /var/www/app/Models/Email.php:30
+Stack trace:
+#0 /var/www/app/Services/EmailService.php(20): App\Models\Email->getEmailsByStatus(Object(App\Enums\EmailStatus))
+#1 /var/www/scripts/email.php(15): App\Services\EmailService->sendQueuedEmails()
+#2 {main}
+  thrown in /var/www/app/Models/Email.php on line 30
