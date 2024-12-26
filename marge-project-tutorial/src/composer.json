@@ -8,7 +8,9 @@
         "doctrine/dbal": "^4.2.1",
         "doctrine/orm": "^3.3",
         "symfony/cache": "^7.2",
-        "doctrine/migrations": "^3.8"
+        "doctrine/migrations": "^3.8",
+        "illuminate/database": "^11.36",
+        "illuminate/events": "^11.36"
     },
     "autoload": {
         "psr-4": {
