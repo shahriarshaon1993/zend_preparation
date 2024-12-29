@@ -10,7 +10,8 @@
         "symfony/cache": "^7.2",
         "doctrine/migrations": "^3.8",
         "illuminate/database": "^11.36",
-        "illuminate/events": "^11.36"
+        "illuminate/events": "^11.36",
+        "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {

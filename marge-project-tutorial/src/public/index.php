@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use App\App;
 use App\Config;
+use App\Controllers\CurlController;
 use App\Controllers\GeneratorController;
 use App\Controllers\HomeController;
 use App\Controllers\InvoiceController;
@@ -25,6 +26,7 @@ try {
         GeneratorController::class,
         InvoiceController::class,
         UserController::class,
+        CurlController::class,
     ]);
 } catch (ReflectionException $e) {
     echo $e->getMessage();
