@@ -8,6 +8,7 @@ use App\Attributes\Route;
 use App\Exceptions\RouteNotFoundException;
 use ReflectionAttribute;
 use ReflectionException;
+use Illuminate\Container\Container;
 
 class Router
 {
