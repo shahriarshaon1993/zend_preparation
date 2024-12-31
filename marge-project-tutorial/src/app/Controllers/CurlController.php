@@ -18,16 +18,10 @@ class CurlController
         $email = 'shahriarshaon1993@gmail.com';
         $result = $this->emailValidationService->verify($email);
 
-        echo '<pre>';
-        print_r($result);
-        echo '</pre>';
-    }
+        $score = $result->score;
+        $isDeliverable = $result->isDeliverable;
 
-    #[Get('/curl/abstract-email')]
-    public function abstractEmail(): void
-    {
-        $email = 'shahriarshaon1993@gmail.com';
-        $result = $this->emailValidationService->verify($email);
+        var_dump($score, $isDeliverable);
 
         echo '<pre>';
         print_r($result);

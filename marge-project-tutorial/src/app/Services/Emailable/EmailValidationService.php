@@ -3,6 +3,7 @@
 namespace App\Services\Emailable;
 
 use App\Contracts\EmailValidationInterface;
+use App\DTO\EmailValidationResult;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\GuzzleException;
@@ -10,6 +11,7 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
+use RuntimeException;
 
 class EmailValidationService implements EmailValidationInterface
 {
@@ -23,7 +25,7 @@ class EmailValidationService implements EmailValidationInterface
     /**
      * @throws GuzzleException
      */
-    public function verify(string $email): array
+    public function verify(string $email): EmailValidationResult
     {
         $stack = HandlerStack::create();
 
@@ -44,7 +46,9 @@ class EmailValidationService implements EmailValidationInterface
 
         $response = $client->get('verify', ['query' => $params]);
 
-        return json_decode($response->getBody()->getContents(), true);
+        $body = json_decode($response->getBody()->getContents(), true);
+
+        return new EmailValidationResult($body['score'], $body['state'] === 'deliverable');
     }
 
     private function getRetryMiddleware(int $maxRetry): callable
@@ -54,7 +58,7 @@ class EmailValidationService implements EmailValidationInterface
                 int $retries,
                 RequestInterface $request,
                 ?ResponseInterface $response = null,
-                ?\RuntimeException $e = null
+                ?RuntimeException $e = null
             ) use ($maxRetry) {
                 if ($retries >= $maxRetry) {
                     return false;
