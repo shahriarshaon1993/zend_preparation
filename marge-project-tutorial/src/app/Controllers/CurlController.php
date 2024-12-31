@@ -3,60 +3,34 @@
 namespace App\Controllers;
 
 use App\Attributes\Get;
+use App\Contracts\EmailValidationInterface;
 
 class CurlController
 {
+    public function __construct(
+        private EmailValidationInterface $emailValidationService
+    ) {
+    }
+
     #[Get('/curl')]
     public function index(): void
     {
-        $handle = curl_init();
-
-        $url = 'https://example.com';
-
-        curl_setopt($handle, CURLOPT_URL, $url);
-        curl_setopt($handle, CURLOPT_RETURNTRANSFER, $url);
-
-        $content = curl_exec($handle);
-
-        // If check error
-        if ($error = curl_error($handle)) {
-            echo 'Curl error: ' . $error;
-            exit;
-        }
+        $email = 'shahriarshaon1993@gmail.com';
+        $result = $this->emailValidationService->verify($email);
 
         echo '<pre>';
-        var_dump(curl_getinfo($handle));
+        print_r($result);
         echo '</pre>';
-
-//        echo strlen($content);
     }
 
-    #[Get('/curl/test-email')]
-    public function emailTest(): void
+    #[Get('/curl/abstract-email')]
+    public function abstractEmail(): void
     {
-        $handle = curl_init();
-
-        $apiKey = $_ENV['EMAILABLE_API_KEY'];
         $email = 'shahriarshaon1993@gmail.com';
+        $result = $this->emailValidationService->verify($email);
 
-        $params = [
-            'api_key' => $apiKey,
-            'email' => $email
-        ];
-
-        $url = 'https://api.emailable.com/v1/verify?'. http_build_query($params);
-
-        curl_setopt($handle, CURLOPT_URL, $url);
-        curl_setopt($handle, CURLOPT_RETURNTRANSFER, $url);
-
-        $content = curl_exec($handle);
-
-        if ($content !== false) {
-            $data = json_decode($content, true);
-
-            echo '<pre>';
-            print_r($data);
-            echo '</pre>';
-        }
+        echo '<pre>';
+        print_r($result);
+        echo '</pre>';
     }
 }
