@@ -31,21 +31,23 @@
 <table>
     <thead>
         <tr>
-            <th>Invoice #</th>
-            <th>Amount #</th>
-            <th>Status #</th>
+            <th>Invoice</th>
+            <th>Amount</th>
+            <th>Status</th>
+            <th>Due Date</th>
         </tr>
     </thead>
 
     <tbody>
-        <?php foreach ($invoices as $invoice): ?>
+        {% for invoice in invoices %}
             <tr>
-                <td><?= $invoice['invoice_number'] ?></td>
-                <td>$<?= number_format($invoice['amount'], 2) ?></td>
-                <td class="<?= \App\Enums\InvoiceStatus::tryFrom($invoice['status'])->color()->getClass() ?>">
-                    <?= \App\Enums\InvoiceStatus::tryFrom($invoice['status'])->toString() ?>
-                </td>
+                <td>{{ invoice.invoice_number }}</td>
+                <td>{{ invoice.amount|format_currency('USD') }}</td>
+                <td>{{ invoice.status }}</td>
+                <td>{{ invoice.dueDate in empty ? 'N/A': invoice.dueDate|date('m/d/Y') }}</td>
             </tr>
-        <?php endforeach; ?>
+        {% else %}
+            <tr><td colspan="4">No Invoices Found</td></tr>
+        {% endfor %}
     </tbody>
 </table>

@@ -9,18 +9,31 @@ use App\Enums\InvoiceStatus;
 use App\Models\Invoice;
 use App\View;
 use Carbon\Carbon;
+use Twig\Environment as Twig;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
 use function Symfony\Component\Clock\now;
 
 class InvoiceController
 {
+    public function __construct(private Twig $twig)
+    {
+    }
+
+    /**
+     * @throws SyntaxError
+     * @throws RuntimeError
+     * @throws LoaderError
+     */
     #[Get("/invoices")]
-    public function index(): View
+    public function index(): string
     {
         $invoices = Invoice::query()
             ->where('status', InvoiceStatus::Paid)
             ->get()->toArray();
 
-        return View::make('invoices/index', ['invoices' => $invoices]);
+        return $this->twig->render('invoices/index.twig', ['invoices' => $invoices]);
     }
 
     #[Get("/invoices/new")]
