@@ -1,1 +1,1 @@
-## Lesson 3.25: Intro to Templating Engines - Blade & Twig
+## Lesson 3.26: How To Install Xdebug 3 with Docker & PhpStorm
