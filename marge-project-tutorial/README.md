@@ -1,1 +1,1 @@
-## Lesson 3.26: How To Install Xdebug 3 with Docker & PhpStorm
+## Lesson 3.27: How To Deploy Vanilla PHP To Cloudways
