@@ -1,20 +1,17 @@
 {
     "require": {
-        "ramsey/uuid": "^4.7",
         "vlucas/phpdotenv": "^5.6",
-        "psr/container": "^2.0",
         "ext-pdo": "*",
-        "symfony/mailer": "^7.2",
         "doctrine/dbal": "^4.2.1",
         "doctrine/orm": "^3.3",
         "symfony/cache": "^7.2",
         "doctrine/migrations": "^3.8",
-        "illuminate/database": "^11.36",
-        "illuminate/events": "^11.36",
         "ext-curl": "*",
-        "guzzlehttp/guzzle": "^7.9",
         "twig/twig": "^3.18",
-        "twig/intl-extra": "^3.18"
+        "twig/intl-extra": "^3.18",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7",
+        "slim/twig-view": "^3.4"
     },
     "autoload": {
         "psr-4": {

@@ -1,1 +1,1 @@
-## Lesson 3.27: How To Deploy Vanilla PHP To Cloudways
+## Lesson 3.28: Intro to Slim PHP Framework
