@@ -23,7 +23,7 @@ $params = [
     'driver'   => $_ENV['DB_DRIVER'] ?? 'pdo_mysql',
 ];
 
-$config = ORMSetup::createAttributeMetadataConfiguration([__DIR__ . '/app/Entity']);
+$config = ORMSetup::createAttributeMetadataConfiguration([__DIR__.'/app/Entity']);
 
 $connection = DriverManager::getConnection($params);
 

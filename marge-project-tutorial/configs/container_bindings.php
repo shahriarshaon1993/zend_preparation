@@ -6,7 +6,6 @@ use App\Config;
 use Doctrine\DBAL\DriverManager;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\ORMSetup;
-use Psr\Container\ContainerInterface;
 use Slim\Views\Twig;
 use Twig\Extra\Intl\IntlExtension;
 use function DI\create;

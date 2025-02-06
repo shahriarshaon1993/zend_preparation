@@ -3,22 +3,22 @@ services:
         build:
             context: ./
             dockerfile: Dockerfile
-        container_name: php-app
+        container_name: myapp
         restart: always
         working_dir: /var/www
         volumes:
-            - ../src:/var/www
+            - ../:/var/www
     nginx:
         image: nginx:latest
-        container_name: php-app-nginx
+        container_name: nginx
         restart: always
         ports:
             - "8000:80"
         volumes:
-            - ../src:/var/www
+            - ../:/var/www
             - ./nginx:/etc/nginx/conf.d
     db:
-        container_name: php-app-db
+        container_name: docker-db
         image: mysql:8.0
         volumes:
             - ./storage/mysql:/var/lib/mysql
@@ -28,7 +28,7 @@ services:
         ports:
             - "3308:3306"
     mailhog:
-        container_name: php-app-mailhog
+        container_name: mailhog
         image: mailhog/mailhog
         restart: always
         logging:
@@ -37,8 +37,8 @@ services:
             - "8025:8025"
             - "1025:1025"
     cron:
-        container_name: php-app-cron
+        container_name: cron
         build: ./cron
         volumes:
-            - ../src:/var/www
+            - ../:/var/www
             - ./log/cron:/var/log/cron
