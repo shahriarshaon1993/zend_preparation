@@ -1,1 +1,1 @@
-## Lesson 3.29: Slim Framework With PHP-DI & Doctrine ORM 
+## Lesson 3.30: Little Refactoring Never Hurt Nobody

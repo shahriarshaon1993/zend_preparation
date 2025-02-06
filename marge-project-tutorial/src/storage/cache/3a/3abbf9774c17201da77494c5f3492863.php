@@ -39,7 +39,7 @@ class __TwigTemplate_9a66ed6a420c4179c6383e750e4d68dd extends Template
     {
         $macros = $this->macros;
         // line 1
-        yield "Hello World!";
+        yield "Hello World! 8";
         yield from [];
     }
 

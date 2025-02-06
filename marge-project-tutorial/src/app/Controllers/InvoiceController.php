@@ -16,6 +16,7 @@ use Twig\Error\SyntaxError;
 class InvoiceController
 {
     public function __construct(
+        private readonly Twig $twig,
         private InvoiceService $invoiceService
     ) {
     }
@@ -27,10 +28,8 @@ class InvoiceController
      */
     public function index(Request $request, Response $response, $args): Response
     {
-        return Twig::fromRequest($request)->render(
-            $response,
-            'invoices/index.twig',
-            ['invoices' => $this->invoiceService->getPaidInvoice()]
-        );
+        return $this->twig->render($response, 'invoices/index.twig', [
+            'invoices' => $this->invoiceService->getPaidInvoice()
+        ]);
     }
 }
