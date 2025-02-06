@@ -2,8 +2,7 @@
 
 namespace App\Services;
 
-use App\Enums\InvoiceStatus;
-use App\Models\Invoice;
+use App\Entity\Invoice;
 use Doctrine\ORM\EntityManager;
 
 class InvoiceService
@@ -18,7 +17,7 @@ class InvoiceService
             ->select('i')
             ->from(Invoice::class, 'i')
             ->where('i.status = :status')
-            ->setParameter('status', InvoiceStatus::Paid)
+            ->setParameter('status', 1)
             ->getQuery()
             ->getArrayResult();
     }

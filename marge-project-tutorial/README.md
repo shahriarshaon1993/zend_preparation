@@ -1,1 +1,1 @@
-## Lesson 3.28: Intro to Slim PHP Framework
+## Lesson 3.29: Slim Framework With PHP-DI & Doctrine ORM 
